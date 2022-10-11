@@ -35,6 +35,52 @@
                     </div>
                 </div>
             </div>
+
+            <div class="heading">
+                <h1>Your Favourite Food <br> Delivered Hot & <br> Fresh</h1>
+                <p>Healthy switcher chefs do all the prep work, like peeding. <br> chopping & marinating, so you can cook a fresh food.</p>
+                <div class="button_heading">
+                    <button><a href="">Order now</a></button>
+                </div>
+                
+            </div>
+        </div>
+
+        <div class="information">
+            <div class="food">
+                <img src="./styles/images/food_salad.png" alt="">
+            </div>
+        </div>
+
+        <div class="info">
+                <div class="info_1">
+                    <i class="fa fa-clock-o" style="font-size:48px;color:#DC143C"></i>
+                    <p>Today 10:00 am - 7:00 pm</p>
+                    <p>Working hours</p>
+                </div>
+                <div class="info_1">
+                    <i class="fa fa-map-marker" style="font-size:48px;color:#DC143C"></i>
+                    <p>Velyka Vasylkivska 100</p>
+                    <p>Get Directions</p>
+                </div>
+                <div class="info_1">
+                    <i class="fa fa-phone-square" style="font-size:48px;color:#DC143C"></i>
+                    <p>+38 (063) 833 24 15</p>
+                    <p>Call Online</p>
+                </div>
+
+        </div>
+
+        <div class="about">
+                <div class="about_img">
+                    <img src="./styles/images/file.png" alt="" height="550px" >
+                </div>
+
+                <div class="about_food">
+                    <p id="red_about">About</p>
+                    <h1>Food Is An Important Part <br> Of A Balanced Diet</h1>
+                    <p id="assured" >They actually assured me over and over that take <br> little time of and come back and work.Fast <br> forward tow weeks after <br> we are going for a new project. </p>
+                </div>
         </div>
     </div>
 </body>
