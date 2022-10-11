@@ -20,8 +20,8 @@
                 </div>
                 <div class="login">
                     <form action="login.php" method="POST" >
-                        <input type="email" name="email" placeholder="Your email">
-                        <input type="password" name="password" placeholder="Your password">
+                        <input type="email" name="email" placeholder="Your email" required autocomplete="off"> 
+                        <input type="password" name="password" placeholder="Your password" required autocomplete="off"> 
                         
                     
                     <div class="btn">

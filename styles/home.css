@@ -1,0 +1,49 @@
+*{
+    margin:0;
+    padding:0; 
+    box-sizing: border-box;
+}
+
+.body{
+    font-family: 'Open Sans';
+}
+
+.nav-bar{
+    background-image: url('./images/home-banner.png');
+    height: 457px;
+}
+
+.home_bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.home_nav_bar ul {
+    display: flex;
+    
+}
+
+.home_nav_bar ul li{
+    margin-left:100px;
+    list-style-type: none;
+
+}
+
+.home_nav_bar ul li a{
+    text-decoration: none;
+    color:black;
+    font-family: 'Open Sans';
+    font-weight: bold;
+    transition:.3s;
+}
+
+.home_nav_bar ul li a:hover{
+    color:#DC143C;
+    transition: .3s;
+}
+
+.user_icons i{
+    margin-left:30px;
+    cursor:pointer;
+}
