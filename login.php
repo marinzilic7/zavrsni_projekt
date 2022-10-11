@@ -20,17 +20,15 @@
                 </div>
                 <div class="register">
                     <form action="">
-                        <input type="text" placeholder="Your name">
-                        <input type="text" placeholder="Your surname">
                         <input type="email" placeholder="Your email">
                         <input type="password" placeholder="Your password">
                         
                     </form>
                     <div class="btn">
-                        <button>Register</button>
+                        <button>Login</button>
                     </div>
                     <div class="acc">
-                        <a href="login.php">Have an FoodHub account? <span id="sign_in" >Sign in</span></a>
+                        <a href="index.php"> Don't have an FoodHub account? <span id="sign_in" >Register</span></a>
                     </div>
                 </div>
              </div>
