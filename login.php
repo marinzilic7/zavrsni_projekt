@@ -14,11 +14,11 @@
 <body>
     <div class="container">
         <div class="form-container">
-            <div class="form">
+            <div class="login_form">
                 <div class="logo">
                     <img src="./styles/images/foodhub.jpg" alt="" width="160px" height="110px">
                 </div>
-                <div class="register">
+                <div class="login">
                     <form action="">
                         <input type="email" placeholder="Your email">
                         <input type="password" placeholder="Your password">
