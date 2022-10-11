@@ -14,24 +14,22 @@
 <body>
     <div class="container">
         <div class="form-container">
-            <div class="form">
+            <div class="login_form">
                 <div class="logo">
                     <img src="./styles/images/foodhub.jpg" alt="" width="160px" height="110px">
                 </div>
-                <div class="register">
-                    <form action="register.php" method="POST">
-                        <input type="text" name="name" placeholder="Your name" required autocomplete="off">
-                        <input type="text" name="surname" placeholder="Your surname" required autocomplete="off">
-                        <input type="email" name="email"placeholder="Your email" required autocomplete="off">
-                        <input type="password" name="password" placeholder="Your password" required autocomplete="off">
+                <div class="login">
+                    <form action="login.php" method="POST" >
+                        <input type="email" name="email" placeholder="Your email">
+                        <input type="password" name="password" placeholder="Your password">
                         
                     
                     <div class="btn">
-                        <button type="submit" name="subBtn">Register</button>
+                        <button>Login</button>
                     </div>
                     </form>
-                    <div class="acc"> 
-                        <a href="login_view.php">Have an FoodHub account? <span id="sign_in" >Sign in</span></a>
+                    <div class="acc">
+                        <a href="index.php"> Don't have an FoodHub account? <span id="sign_in" >Register</span></a>
                     </div>
                 </div>
              </div>
