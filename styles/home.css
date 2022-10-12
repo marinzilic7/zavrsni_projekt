@@ -7,6 +7,7 @@
 body{
     font-family: 'Open Sans';
     overflow-x: hidden;
+    
 }
 
 .nav-bar{
@@ -306,7 +307,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 95%;
+    width: 100%;
     margin-top:80px;
 }
 
@@ -316,9 +317,9 @@ body{
 }
 
 .partner{
-    width: 300px;
+    width: 400px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 
 }
 
@@ -334,4 +335,34 @@ body{
     letter-spacing: 1px;
     cursor: pointer;
 
+}
+
+.footer{
+    display: flex;
+   justify-content: center;
+    margin-top:100px;
+    color:gray;
+    font-size:14px;
+    line-height: 30px;
+    
+}
+
+.footer ul{
+    margin-right: 150px;
+
+}
+
+.footer ul li{
+    cursor: pointer;
+}
+
+
+
+.footer ul li{
+    list-style-type: none;
+}
+
+.footer ul li:first-child{
+    color:#DC143C;
+    font-weight: bold;
 }
