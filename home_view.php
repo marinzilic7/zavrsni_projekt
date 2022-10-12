@@ -132,6 +132,41 @@
                 </div>
             </div>
         </div>
+
+        <div class="customer">
+            <div class="feedback">
+                <h1>Customer Feedback</h1>
+                <div class="cust_buttons">
+                    <i class='fas fa-arrow-left' style='font-size:24px;color:#DC143C' id="lijevo"></i>
+                    <i class='fas fa-arrow-right' style='font-size:24px;color:#DC143C' id="desno"></i>
+                </div>
+            </div>
+
+            <div class="rec">
+                    <div class="guests" id="lastClone">
+                        <p>Foodhub is a brilliant app… Prefer this to other <br> takeaway apps and highly recommend. Definitely <br> worth the 5 Stars.</p>
+                        <p>Tom Callagher</p>
+                    </div>
+                    <div class="guests">
+                        <p>Foodhub is a brilliant app… Prefer this to other <br> takeaway apps and highly recommend. Definitely <br> worth the 5 Stars.</p>
+                        <p>Tom Callagher</p>
+                    </div>
+                    <div class="guests">
+                        <p>Foodhub is a brilliant app… Prefer this to other <br> takeaway apps and highly recommend. Definitely <br> worth the 5 Stars.</p>
+                        <p>Tom Callagher</p>
+                    </div>
+                    <div class="guests">
+                        <p>Foodhub is a brilliant app… Prefer this to other <br> takeaway apps and highly recommend. Definitely <br> worth the 5 Stars.</p>
+                        <p>Tom Callagher</p>
+                    </div>
+                    <div class="guests" id="firstClone">
+                        <p>Foodhub is a brilliant app… Prefer this to other <br> takeaway apps and highly recommend. Definitely <br> worth the 5 Stars.</p>
+                        <p>Tom Callagher</p>
+                    </div>
+            </div>
+        </div>
     </div>
+
+    <script src="./app/app.js"></script>
 </body>
 </html> 
