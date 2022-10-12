@@ -145,24 +145,34 @@
             <div class="rec">
                     <div class="guests" id="lastClone">
                         <p>Foodhub is a brilliant app… Prefer this to other <br> takeaway apps and highly recommend. Definitely <br> worth the 5 Stars.</p>
-                        <p>Tom Callagher</p>
+                        <p>T Callagher</p>
                     </div>
                     <div class="guests">
-                        <p>Foodhub is a brilliant app… Prefer this to other <br> takeaway apps and highly recommend. Definitely <br> worth the 5 Stars.</p>
-                        <p>Tom Callagher</p>
+                        <p>First time I've used it and found it really easy. The <br> discount was fab… It’s cheaper than using the <br> JustEat app.</p>
+                        <p>Z Halsey</p>
                     </div>
                     <div class="guests">
-                        <p>Foodhub is a brilliant app… Prefer this to other <br> takeaway apps and highly recommend. Definitely <br> worth the 5 Stars.</p>
-                        <p>Tom Callagher</p>
+                        <p>Cool app. And it cost substantially less than other <br> food ordering apps. I'm very happy that I've found <br> this app.</p>
+                        <p>C Williams</p>
                     </div>
                     <div class="guests">
-                        <p>Foodhub is a brilliant app… Prefer this to other <br> takeaway apps and highly recommend. Definitely <br> worth the 5 Stars.</p>
-                        <p>Tom Callagher</p>
+                        <p>This is cheaper than Just Eat with fewer fees already <br> (just a single delivery charge), let alone the discounts <br> you can get in app. In my opinion it's a more <br> pleasant ordering experience.</p>
+                        <p>G Watts</p>
                     </div>
                     <div class="guests" id="firstClone">
-                        <p>Foodhub is a brilliant app… Prefer this to other <br> takeaway apps and highly recommend. Definitely <br> worth the 5 Stars.</p>
-                        <p>Tom Callagher</p>
+                        <p>Fantastic easy to use app. Owner of place I usually <br>  order said how easy it is for her at her side to use <br> too and so much better than similar companies. <br> Great keep it up 👍</p>
+                        <p>J Sherratt</p>
                     </div>
+            </div>
+            <div class="free">
+                <div class="free_head">
+                    <h1> 100 % Commission FREE website,</h1>
+                    <p>Helping support your local takeaways</p>
+                </div>
+                
+                <div class="partner">
+                    <button>Become a partner</button>
+                </div>
             </div>
         </div>
     </div>

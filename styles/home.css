@@ -248,8 +248,8 @@ body{
 
 
 .customer{
-    height: 500px;
-    background-color: #F8F8FF;
+    height: 600px;
+    background-color: #f7f7f7;
     padding-top: 80px;
     
 }
@@ -300,4 +300,38 @@ body{
     text-align: center;
     color:#DC143C;
     font-weight: bold;
+}
+
+.free{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    margin-top:80px;
+}
+
+.free_head p{
+    margin-top:6px;
+    font-size:30px;
+}
+
+.partner{
+    width: 300px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.partner button{
+    padding:15px;
+    background-color: #DC143C;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    font-weight: bold;
+    border:none;
+    border-radius: 15px;
+    color:#fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+
 }
