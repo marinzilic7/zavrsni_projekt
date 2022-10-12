@@ -398,3 +398,24 @@ body{
     letter-spacing: 4px;
     padding:5px;
 }
+
+
+.soup_card{
+    display: flex !important;
+    flex-direction: row;
+    margin-top:50px;
+    
+}
+
+.soup_poredak{
+    display: flex;
+    margin-left:100px; 
+    
+}
+
+
+
+
+
+
+
