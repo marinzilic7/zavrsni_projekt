@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <title>FoodHub</title>
     <link rel="icon" href="./styles/images/fh_icon.png" type="image/icon type">
 </head>
@@ -82,6 +83,40 @@
                     <p id="assured" >They actually assured me over and over that take <br> little time of and come back and work.Fast <br> forward tow weeks after <br> we are going for a new project. </p>
                 </div>
         </div>
+
+        <div class="enjoy">
+            <div class="head_step">
+                <h1>Enjoy food in 4 Simple Steps</h1>
+            </div>
+            <div class="infor">
+                <div class="steps">
+                    <i class="fa fa-map" style="font-size:48px;color:#DC143C"></i>
+                    <p>Locate</p>
+                </div>
+                <div class="steps">
+                    <i class='fas fa-hamburger' style='font-size:48px;color:#DC143C'></i>
+                    <p>Select</p>
+                </div>
+                <div class="steps">
+                    <i class="fa fa-credit-card" style="font-size:48px;color:#DC143C"></i>
+                    <p>Pay</p>
+                </div>
+                <div class="steps">
+                    <i class='fas fa-pizza-slice' style='font-size:48px;color:#DC143C'></i>
+                    <p>Relish</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="compare">
+            <div class="compare_words">
+                <h1>When you can save so much on food, why go anywhere else?</h1>
+                <p>Find your saving on Foodhub compared to other portals and take your call</p>
+                <button>Compare</button>
+            </div>
+        </div>
+
+        <hr id="hr">
     </div>
 </body>
-</html>
+</html> 
