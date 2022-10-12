@@ -117,6 +117,21 @@
         </div>
 
         <hr id="hr">
+
+        <div class="google">
+            <div class="app_img">
+                <img src="./styles/images/mobile-app.png" alt="" width="540px" height="788px">
+            </div>
+            <div class="download">
+                <div class="app_heading">
+                    <span id="span">Download our app to </span><br> <h1>Get Exclusive Discounts!</h1>
+                </div>
+                <div class="appimages">
+                    <img src="./styles/images/store.png" alt="">
+                    <img src="./styles/images/google.png" alt="">
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html> 

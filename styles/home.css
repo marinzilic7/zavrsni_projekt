@@ -211,3 +211,36 @@ body{
 #hr{
     margin-top:50px;
 }
+
+/* -------------------------------------------------------------------------------- */ 
+
+
+.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:120px;
+    
+}
+
+.download{
+    margin-left:70px;
+    font-size:20px;
+}
+
+#span{
+    font-size: 35px !important;
+}
+
+.appimages{
+    margin-top:20px;
+    display: flex;
+}
+
+.appimages img{
+    cursor:pointer;
+}
+
+.appimages img:last-child{
+    margin-left:20px;
+}
