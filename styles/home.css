@@ -379,6 +379,7 @@ body{
     font-size: 30px;
     font-style: italic;
     letter-spacing: 5px;
+    height: 350px;
 }
 
 .headingg h1{
@@ -388,31 +389,56 @@ body{
 
 }
 
-.soup_head{
-    margin-left:45px;
+.soup_head h1{
+    font-size:40px;
+    margin-left:50px;
     margin-top:50px;
-    font-size: 25px;
+    letter-spacing: 2px;
     font-style: italic;
     border-bottom: 3px solid #DC143C;
-    width: 15vh;
-    letter-spacing: 4px;
-    padding:5px;
+    padding:10px;
+    width:120px;
+    border-radius: 5px;
 }
 
+.soup{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    background-color: #f7f7f7;
+    padding:50px;
+}
 
 .soup_card{
-    display: flex !important;
-    flex-direction: row;
-    margin-top:50px;
-    
+    background-color: #fff;
+    padding:50px;
+    text-align: center;
+    border-radius:20px;
+    filter: drop-shadow(0 0 0.75rem gray);
+   
 }
 
-.soup_poredak{
-    display: flex;
-    margin-left:100px; 
-    
+.soup_card p{
+    margin-top:10px;
+    font-weight: bold;
+    font-style: italic;
+    font-size:18px;
 }
 
+.adoni button{
+    padding:8px;
+    color:#fff;
+    font-family: 'Open Sans';
+    letter-spacing: 1px;
+    font-weight: bold;
+    border:none;
+    background-color: #DC143C;
+    margin-top:20px;
+    width:80px;
+    border-radius: 0px 10px 0px 10px;
+    cursor: pointer;
+
+}
 
 
 
