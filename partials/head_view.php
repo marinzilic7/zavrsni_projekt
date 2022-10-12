@@ -22,7 +22,7 @@
                 </div>
                 <div class="home_nav_bar">
                     <ul>
-                        <li><a href="">Home</a></li>
+                        <li><a href="home_view.php">Home</a></li>
                         <li><a href="food_view.php">Food</a></li>
                         <li><a href="">Drinks</a></li>
                         <li><a href="">Contact</a></li>

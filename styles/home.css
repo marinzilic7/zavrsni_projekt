@@ -366,3 +366,35 @@ body{
     color:#DC143C;
     font-weight: bold;
 }
+
+/* FOOD VIEW PAGE */
+
+
+.headingg{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    align-items: center;
+    height: 200px;
+    font-size: 30px;
+    font-style: italic;
+    letter-spacing: 5px;
+}
+
+.headingg h1{
+    border-bottom: 5px solid #DC143C;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.soup_head{
+    margin-left:45px;
+    margin-top:50px;
+    font-size: 25px;
+    font-style: italic;
+    border-bottom: 3px solid #DC143C;
+    width: 15vh;
+    letter-spacing: 4px;
+    padding:5px;
+}
