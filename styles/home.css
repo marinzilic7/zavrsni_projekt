@@ -441,7 +441,55 @@ body{
 }
 
 
+.burger_head h1{
+    font-size:40px;
+    margin-left:30px;
+    margin-top:50px;
+    letter-spacing: 2px;
+    font-style: italic;
+    border-bottom: 3px solid #DC143C;
+    padding:10px;
+    width:180px;
+    border-radius: 5px;
+}
 
+.burger{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    background-color: #f7f7f7;
+    padding:50px;
+}
 
+.burger_card{
+    background-color: #fff;
+    padding:50px;
+    text-align: center;
+    border-radius:20px;
+    filter: drop-shadow(0 0 0.75rem gray);
+   
+}
+
+.burger_card p{
+    margin-top:10px;
+    font-weight: bold;
+    font-style: italic;
+    font-size:18px;
+}
+
+.adonii button{
+    padding:8px;
+    color:#fff;
+    font-family: 'Open Sans';
+    letter-spacing: 1px;
+    font-weight: bold;
+    border:none;
+    background-color: #DC143C;
+    margin-top:20px;
+    width:80px;
+    border-radius: 0px 10px 0px 10px;
+    cursor: pointer;
+
+}
 
 
