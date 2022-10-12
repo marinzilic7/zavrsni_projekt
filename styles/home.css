@@ -415,7 +415,14 @@ body{
     text-align: center;
     border-radius:20px;
     filter: drop-shadow(0 0 0.75rem gray);
+    transition: .4s ease-in-out;
+    cursor: pointer;
    
+}
+
+.soup_card:hover{
+    filter: drop-shadow(0 0 0.75rem #DC143C);
+    transition: .4 ease-in-out;
 }
 
 .soup_card p{
@@ -467,7 +474,14 @@ body{
     text-align: center;
     border-radius:20px;
     filter: drop-shadow(0 0 0.75rem gray);
-   
+    transition: .4s ease-in-out;
+    cursor: pointer;
+
+}
+
+.burger_card:hover{
+    filter: drop-shadow(0 0 0.75rem #DC143C);
+    transition: .4 ease-in-out;
 }
 
 .burger_card p{
