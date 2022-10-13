@@ -33,6 +33,20 @@
                 </div>
                 <div class="user">
                     <div class="user_icons">
+                        <div class="shop">
+                            <p>
+                                <?php 
+                            
+                                    $sql = 'SELECT * FROM cart';
+                                    $query = mysqli_query($db,$sql);
+                                    $row = mysqli_num_rows($query); 
+
+                                    if($row > 0){
+                                    echo $row;
+                                    }
+                                ?>
+                            </p>
+                        </div>
                         <a href="cart_view.php?id=<?php echo $_SESSION['user_id']; ?>"><i class="fa fa-shopping-cart" style="font-size:24px;color:#000;"></i></a>
                         <i class="fa fa-user" style="font-size:24px;"></i>
                         <i class='fas fa-sign-out-alt' style='font-size:24px;'></i>
