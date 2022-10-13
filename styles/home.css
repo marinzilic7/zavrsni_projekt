@@ -405,7 +405,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     margin-top: 70px;
-    background-color: #f7f7f7;
+    background-color: #DC143C;
     padding:50px;
 }
 
@@ -418,10 +418,11 @@ body{
     transition: .4s ease-in-out;
     cursor: pointer;
    
+   
 }
 
 .soup_card:hover{
-    filter: drop-shadow(0 0 0.75rem #DC143C);
+    filter: drop-shadow(0 0 0.75rem black);
     transition: .4 ease-in-out;
 }
 
@@ -448,6 +449,8 @@ body{
 }
 
 
+
+
 .burger_head h1{
     font-size:40px;
     margin-left:30px;
@@ -464,7 +467,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     margin-top: 70px;
-    background-color: #f7f7f7;
+    background-color: #DC143C;
     padding:50px;
 }
 
@@ -480,7 +483,7 @@ body{
 }
 
 .burger_card:hover{
-    filter: drop-shadow(0 0 0.75rem #DC143C);
+    filter: drop-shadow(0 0 0.75rem black);
     transition: .4 ease-in-out;
 }
 
@@ -505,5 +508,99 @@ body{
     cursor: pointer;
 
 }
+
+.pizza_head h1{
+    font-size:40px;
+    margin-left:40px;
+    margin-top:50px;
+    letter-spacing: 2px;
+    font-style: italic;
+    border-bottom: 3px solid #DC143C;
+    padding:10px;
+    width:120px;
+    border-radius: 5px;
+}
+
+
+.pizza{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    background-color: #DC143C;
+    padding:50px;
+}
+
+.pizza_card{
+    background-color: #fff;
+    padding:50px;
+    text-align: center;
+    border-radius:20px;
+    filter: drop-shadow(0 0 0.75rem gray);
+    transition: .4s ease-in-out;
+    cursor: pointer;
+
+}
+
+.pizza_card:hover{
+    filter: drop-shadow(0 0 0.75rem black);
+    transition: .4 ease-in-out;
+}
+
+.pizza_card p{
+    margin-top:10px;
+    font-weight: bold;
+    font-style: italic;
+    font-size:18px;
+}
+
+
+
+.main_head h1{
+    font-size:40px;
+    margin-left:30px;
+    margin-top:50px;
+    letter-spacing: 2px;
+    font-style: italic;
+    border-bottom: 3px solid #DC143C;
+    padding:10px;
+    width:300px;
+    border-radius: 5px;
+
+}
+
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    background-color: #DC143C;
+    padding:50px;
+    flex-wrap: wrap;
+}
+
+.main_card{
+    background-color: #fff;
+    padding:50px;
+    text-align: center;
+    border-radius:20px;
+    filter: drop-shadow(0 0 0.75rem gray);
+    transition: .4s ease-in-out;
+    cursor: pointer;
+
+}
+
+.main_card:hover{
+    filter: drop-shadow(0 0 0.75rem black);
+    transition: .4 ease-in-out;
+}
+
+.main_card p{
+    margin-top:10px;
+    font-weight: bold;
+    font-style: italic;
+    font-size:18px;
+}
+
+
+
 
 

@@ -51,3 +51,49 @@
     <?php endforeach; ?>
 </div>
 
+<div class="pizza_head">
+    <h1>Pizza</h1>
+</div>
+
+
+<div class="pizza">
+    <?php foreach($result_3 as $value_3): ?>
+    <div class="pizza_items">
+        <div class="pizza_card">
+            <div class="pizza_img">
+                <img src="./styles/images<?php echo $value_3['image']?>" alt="" height="100px" width="150px" >
+            </div>
+            <div class="pizza_info">
+                <p><?php echo $value_3['name'] ?></p>
+                <p><?php echo $value_3['price'] ?></p>
+            </div>
+            <div class="adonii">
+                <button>Add</button>
+            </div>
+        </div>
+    </div>
+    <?php endforeach; ?>
+</div>
+
+<div class="main_head">
+    <h1>Main Course</h1>
+</div>
+
+<div class="main">
+    <?php foreach($result_4 as $value_4): ?>
+    <div class="main_items">
+        <div class="main_card">
+            <div class="main_img">
+                <img src="./styles/images<?php echo $value_4['image']?>" alt="" height="100px" width="150px" >
+            </div>
+            <div class="main_info">
+                <p><?php echo $value_4['name'] ?></p>
+                <p><?php echo $value_4['price'] ?></p>
+            </div>
+            <div class="adonii">
+                <button>Add</button>
+            </div>
+        </div>
+    </div>
+    <?php endforeach; ?>
+</div>
