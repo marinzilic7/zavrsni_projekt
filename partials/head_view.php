@@ -1,3 +1,6 @@
+<?php require 'connection.php'; ?>
+<?php session_start(); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +33,7 @@
                 </div>
                 <div class="user">
                     <div class="user_icons">
-                        <i class="fa fa-shopping-cart" style="font-size:24px;"></i>
+                        <a href="cart_view.php?id=<?php echo $_SESSION['user_id']; ?>"><i class="fa fa-shopping-cart" style="font-size:24px;color:#000;"></i></a>
                         <i class="fa fa-user" style="font-size:24px;"></i>
                         <i class='fas fa-sign-out-alt' style='font-size:24px;'></i>
                         

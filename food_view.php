@@ -21,7 +21,7 @@
                 <p><?php echo $value['price'] ?></p>
             </div>
             <div class="adoni">
-                <button>Add</button>
+                <a href="add_to_cart.php?user_id=<?php echo $_SESSION['user_id'] ?>&food_id=<?php echo $value['food_id'] ?>"><button>Add</button></a>
             </div>
         </div>
     </div>
@@ -97,3 +97,5 @@
     </div>
     <?php endforeach; ?>
 </div>
+
+<?php require './partials/footer_view.php' ?>

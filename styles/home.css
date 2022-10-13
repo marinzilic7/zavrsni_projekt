@@ -433,6 +433,8 @@ body{
     font-size:18px;
 }
 
+
+
 .adoni button{
     padding:8px;
     color:#fff;
@@ -441,10 +443,12 @@ body{
     font-weight: bold;
     border:none;
     background-color: #DC143C;
-    margin-top:20px;
     width:80px;
     border-radius: 0px 10px 0px 10px;
     cursor: pointer;
+    text-decoration: none;
+    margin-top:20px;
+    
 
 }
 
