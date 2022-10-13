@@ -2,12 +2,18 @@
     
     require './partials/head_view.php'; 
     require 'connection.php';
+    require 'food.php';
 
     $user_id = $_GET['user_id'];
     $sql = "SELECT * FROM cart WHERE user_id = '$user_id'";
     $query = mysqli_query($db,$sql);
     $result = mysqli_fetch_all($query,MYSQLI_ASSOC);
     $row = mysqli_num_rows($query);
+
+    $sql_2 = "SELECT price FROM soup";
+    $query_2 = mysqli_query($db,$sql_2); 
+    $result_2 = mysqli_fetch_all($query_2,MYSQLI_ASSOC);
+
 ?>
 
 <div class="headingg">
@@ -36,7 +42,15 @@
                         &nbsp;
                         &nbsp;
                         &nbsp;
-                    <p>0</p>
+                        <p><?php 
+                        $food_id = $value['food_id'];
+                        $sql3 = "SELECT * FROM food_num WHERE food_id = '$food_id' ";
+                        $query3 = mysqli_query($db,$sql3);
+                        $row = mysqli_num_rows($query3);
+
+                        echo $row;
+                        
+                        ?></p>
                         &nbsp;
                         &nbsp;
                         &nbsp;
@@ -55,6 +69,7 @@
             </div>
         </div>
     </div>
+    
     <?php endforeach; ?>
     </div>
 

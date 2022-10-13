@@ -9,6 +9,10 @@ $sql = "SELECT name,price,image FROM soup WHERE food_id = '$id'";
 $query = mysqli_query($db,$sql);
 $result = mysqli_fetch_all($query, MYSQLI_ASSOC);
 
+
+
+
+
 foreach($result as $value){
     $name = $value['name'];
     $price = $value['price'];

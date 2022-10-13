@@ -25,6 +25,9 @@ foreach($result as $key){
 $sql2 = "UPDATE cart SET price='$res' WHERE food_id = '$food_id'"; 
 $query2 = mysqli_query($db,$sql2);
 
-header('Location:cart_view.php');
+$sql3 = "INSERT INTO food_num VALUES('id', '$food_id', '$name')";
+$query3 = mysqli_query($db,$sql3);
+header('Location:cart_view.php?user_id='.$user_id);
+
 
 ?>

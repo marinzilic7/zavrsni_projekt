@@ -6,5 +6,8 @@ $food_id = $_GET['food_id'];
 
 $sql = "DELETE FROM cart WHERE food_id = '$food_id'";
 $query = mysqli_query($db,$sql);
-header("Location:cart_view.php?user_id=3");
+
+$sql2 = "DELETE FROM food_num WHERE food_id = '$food_id'";
+$query2 = mysqli_query($db,$sql2);
+header("Location:cart_view.php?user_id=".$user_id);
 ?>
