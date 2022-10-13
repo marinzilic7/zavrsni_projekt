@@ -38,7 +38,7 @@
                     </div>
                 </div>
                 <div class="add_or_not">
-                    <a href="">-</a>
+                    <a href="count_minus.php?user_id=<?php echo $_SESSION['user_id']?>&food_id=<?php echo $value['food_id'] ?>">-</a>
                         &nbsp;
                         &nbsp;
                         &nbsp;

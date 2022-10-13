@@ -9,5 +9,7 @@ $query = mysqli_query($db,$sql);
 
 $sql2 = "DELETE FROM food_num WHERE food_id = '$food_id'";
 $query2 = mysqli_query($db,$sql2);
+
+
 header("Location:cart_view.php?user_id=".$user_id);
 ?>
