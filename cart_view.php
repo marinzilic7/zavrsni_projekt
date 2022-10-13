@@ -15,7 +15,7 @@
 </div>
 
 <?php if($row == 0): ?>
-    <h1 id ="empty">Your cart is empty</h1>
+    <h1 id ="empty" >Your cart is empty</h1>
 <?php else: ?>
 
     <div class="gray">
@@ -28,7 +28,7 @@
                     </div>
                     <div class="cart_name">
                         <p><?php echo $value['name'] ?></p>
-                        <p><?php echo $value['price'] ?></p>
+                        <p><?php echo $value['price'] ?>$</p>
                     </div>
                 </div>
                 <div class="add_or_not">
@@ -41,11 +41,11 @@
                         &nbsp;
                         &nbsp;
 
-                    <a href="">+</a>
+                    <a href="count_plus.php?user_id=<?php echo $_SESSION['user_id']?>&food_id=<?php echo $value['food_id']?>">+</a>
                 </div>
 
                 <div class="total">
-                    <p><?php echo $value['price']; ?></p>
+                    <p><?php echo $value['price']; ?>$</p>
                 </div>
         </div>
         <div class="cart_button">

@@ -18,7 +18,7 @@
             </div>
             <div class="soup_info">
                 <p><?php echo $value['name'] ?></p>
-                <p><?php echo $value['price'] ?></p>
+                <p><?php echo $value['price'] ?>$</p>
             </div>
             <div class="adoni">
                 <a href="add_to_cart.php?user_id=<?php echo $_SESSION['user_id'] ?>&food_id=<?php echo $value['food_id'] ?>"><button>Add</button></a>
@@ -41,7 +41,7 @@
             </div>
             <div class="burger_info">
                 <p><?php echo $value_2['name'] ?></p>
-                <p><?php echo $value_2['price'] ?></p>
+                <p><?php echo $value_2['price'] ?>$</p>
             </div>
             <div class="adonii">
                 <button>Add</button>
@@ -65,7 +65,7 @@
             </div>
             <div class="pizza_info">
                 <p><?php echo $value_3['name'] ?></p>
-                <p><?php echo $value_3['price'] ?></p>
+                <p><?php echo $value_3['price'] ?>$</p>
             </div>
             <div class="adonii">
                 <button>Add</button>
@@ -88,7 +88,7 @@
             </div>
             <div class="main_info">
                 <p><?php echo $value_4['name'] ?></p>
-                <p><?php echo $value_4['price'] ?></p>
+                <p><?php echo $value_4['price'] ?>$</p>
             </div>
             <div class="adonii">
                 <button>Add</button>
