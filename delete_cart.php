@@ -3,6 +3,7 @@
 require 'connection.php';
 
 $food_id = $_GET['food_id'];
+$user_id = $_GET['user_id'];
 
 $sql = "DELETE FROM cart WHERE food_id = '$food_id'";
 $query = mysqli_query($db,$sql);
