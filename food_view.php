@@ -44,7 +44,7 @@
                 <p><?php echo $value_2['price'] ?>$</p>
             </div>
             <div class="adonii">
-                <button>Add</button>
+                <a href="add_burger.php?user_id=<?php echo $_SESSION['user_id'] ?>&burger_id=<?php echo $value_2['burger_id'] ?>"><button>Add</button></a>
             </div>
         </div>
     </div>
@@ -68,7 +68,7 @@
                 <p><?php echo $value_3['price'] ?>$</p>
             </div>
             <div class="adonii">
-                <button>Add</button>
+                <a href="add_pizza.php?user_id=<?php echo $_SESSION['user_id'] ?>&id=<?php echo $value_3['id'] ?>"><button>Add</button></a>
             </div>
         </div>
     </div>
@@ -91,7 +91,7 @@
                 <p><?php echo $value_4['price'] ?>$</p>
             </div>
             <div class="adonii">
-                <button>Add</button>
+                <a href="add_classic.php?user_id=<?php echo $_SESSION['user_id'] ?>&id=<?php echo $value_4['id'] ?>"><button>Add</button></a>
             </div>
         </div>
     </div>

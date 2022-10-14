@@ -1,12 +1,11 @@
 <?php 
 
+require 'connection.php'; 
 
-require 'connection.php';
-
-$id = $_GET['food_id'];
+$id = $_GET['id'];
 
 
-$sql = "SELECT name,price,image FROM soup WHERE food_id = '$id'"; 
+$sql = "SELECT name,price,image FROM pizza WHERE id = '$id'"; 
 $query = mysqli_query($db,$sql);
 $result = mysqli_fetch_all($query, MYSQLI_ASSOC);
 
@@ -53,5 +52,8 @@ function check($user_id, $id){
 
 
 check($user_id,$id);
+
+?>
+
 
 ?>

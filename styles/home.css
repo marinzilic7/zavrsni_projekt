@@ -629,6 +629,7 @@ body{
     background-color: #DC143C;
     border-radius: 20px;
     padding:20px;
+    margin-top:50px;
 }
 
 .add_or_not{
@@ -660,7 +661,8 @@ body{
 .cart{
     margin-top:50px;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content:space-between;
     padding-top:30px;
     flex-direction: column;
     align-items: center;
@@ -675,6 +677,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+   
 }
 
 .cart_name{
