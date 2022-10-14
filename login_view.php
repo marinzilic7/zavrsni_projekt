@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +31,8 @@
                     </div>
                     </form>
                     <div class="acc">
-                        <a href="index.php"> Don't have an FoodHub account? <span id="sign_in" >Register</span></a>
+                        <a href="index.php"> Don't have an FoodHub account? <span id="sign_in" >Register</span></a><br>
+                       
                     </div>
                 </div>
              </div>

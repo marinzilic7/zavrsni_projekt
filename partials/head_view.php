@@ -4,7 +4,13 @@
 
 
 
+
+
 ?>
+
+<?php if(!isset($_SESSION['user_id'])): ?>
+    <?php header('Location:login_view.php') ?>
+<?php else: ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -60,3 +66,4 @@
                 </div>
             </div>
 
+<?php endif; ?>

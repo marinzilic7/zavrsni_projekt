@@ -2,6 +2,8 @@
 
 require 'connection.php';
 
+
+
 session_start();
 $email = $_POST['email'];
 $password = $_POST['password'];
@@ -16,6 +18,8 @@ if($id){
     header('Location:home_view.php');
 }else{
     header('Location:login_view.php');
+    
+
 }
 
 ?>
