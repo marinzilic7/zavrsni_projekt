@@ -729,7 +729,7 @@ body{
     width: 100px;
     padding:10px;
     font-family: 'Open Sans';
-   
+    cursor: pointer;
     border:none;
     border-radius: 3px;
     background-color: rgb(0, 116, 228);
@@ -741,4 +741,50 @@ body{
 
 #delete{
     background-color: #feba0c;
+}
+
+.total_and_pay{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top:50px;
+    width:85%;
+}
+
+
+.button_pay{
+    display: flex;
+    justify-content: space-evenly;
+    width:50vh;
+    align-items: center;
+}
+
+.button_pay button{
+    
+    width: 100px;
+    padding:10px;
+    font-family: 'Open Sans';
+   
+    border:none;
+    border-radius: 3px;
+    background-color: rgb(0, 116, 228);
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor:pointer;
+}
+
+.button_pay p{
+    font-size:30px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width:30vh;
+}
+
+#empty{
+    text-align: center;
+    margin-top:100px;
+    font-size:50px;
+    letter-spacing: 5px;
 }

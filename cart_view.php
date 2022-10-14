@@ -20,6 +20,10 @@
     <h1>Your Cart</h1>
 </div>
 
+
+<?php if($row == 0):?>
+    <h1 id="empty">Your cart is Empty</h1>
+<?php else: ?>
 <div class="card_info">
     <?php foreach($result as $value): ?>
     <div class="all_card">
@@ -63,10 +67,43 @@
 
     <div class="buttoni">
         <div class="buttonii">
-            <a href=""><button>BUY</button></a>
             <a href="delete_cart.php?food_id=<?php echo $value['food_id']?>&user_id=<?php echo $_SESSION['user_id'] ?>"><button id="delete">Delete</button></a>
         </div>
     </div>
     <?php endforeach; ?>
 </div>
+
+
+<div class="total_and_pay">
+    <div class="button_pay">
+        <a href=""><button>CHECK</button></a>
+        <p>Total : 
+
+        <?php 
+        
+        function total(){
+            global $db;
+            $sql4 = "SELECT SUM(price) FROM cart";
+            $query4 = mysqli_query($db,$sql4);
+            $result3 = mysqli_fetch_all($query4, MYSQLI_ASSOC);
+            
+            foreach($result3 as $key){
+                echo round($key["SUM(price)"], 5);
+            }
+
+            
+            
+        }
+        total();
+        
+        
+        
+        ?>
+
+
+        $</p>
+    </div>
+</div>
+
+<?php endif; ?>
 
