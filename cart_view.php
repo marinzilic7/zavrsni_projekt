@@ -48,7 +48,7 @@
                         $query3 = mysqli_query($db,$sql3);
                         $row = mysqli_num_rows($query3);
 
-                        echo $row;
+                       echo $row;
                         
                         ?></p>
                         &nbsp;
