@@ -26,6 +26,7 @@
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
     <title>FoodHub</title>
     <link rel="icon" href="./styles/images/fh_icon.png" type="image/icon type">
+    
 </head>
 <body>
     <div class="container">
@@ -59,7 +60,7 @@
                             </p>
                         </div>
                         <a href="cart_view.php?user_id=<?php echo $_SESSION['user_id'];?>"><i class="fa fa-shopping-cart" style="font-size:24px;color:#000;"></i></a>
-                        <i class="fa fa-user" style="font-size:24px;"></i>
+                        <a href="user_view.php?user_id=<?php echo $_SESSION['user_id'];?>"><i class="fa fa-user" style="font-size:24px;color:#000;"></i></a>
                         <a href="logout.php?user_id=<?php echo $_SESSION['user_id'];?>"><i class='fas fa-sign-out-alt' style='font-size:24px;color:#000;'></i></a>
                         
                     </div>
@@ -67,3 +68,6 @@
             </div>
 
 <?php endif; ?>
+
+<script src="./app/anime.js"></script>
+

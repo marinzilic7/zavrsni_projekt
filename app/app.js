@@ -27,6 +27,8 @@ left.addEventListener('click', ()=> {
 const third = document.querySelector('#lastClone'); 
 console.log(third.id);
 
+
+
 /* carouselSlide.addEventListener('transitionend', () => {
     if(third.id === 'lastClone'){
         carouselSlide.style.transition = "none"; 
