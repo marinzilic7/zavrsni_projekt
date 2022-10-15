@@ -25,7 +25,7 @@
                 <p><?php echo $value['price'] ?>$</p>
             </div>
             <div class="adoni">
-                <a href="add_to_cart.php?user_id=<?php echo $_SESSION['user_id'] ?>&food_id=<?php echo $value['drink_id'] ?>"><button>Add</button></a>
+                <a href="add_non.php?user_id=<?php echo $_SESSION['user_id'] ?>&drink_id=<?php echo $value['drink_id'] ?>"><button>Add</button></a>
             </div>
         </div>
     </div>
@@ -48,7 +48,7 @@
                 <p><?php echo $value_2['price'] ?>$</p>
             </div>
             <div class="adonii">
-                <a href="add_burger.php?user_id=<?php echo $_SESSION['user_id'] ?>&burger_id=<?php echo $value_2['beer_id'] ?>"><button>Add</button></a>
+                <a href="add_beer.php?user_id=<?php echo $_SESSION['user_id'] ?>&beer_id=<?php echo $value_2['beer_id'] ?>"><button>Add</button></a>
             </div>
         </div>
     </div>
@@ -71,7 +71,7 @@
                 <p><?php echo $value_3['price'] ?>$</p>
             </div>
             <div class="adonii">
-                <a href="add_pizza.php?user_id=<?php echo $_SESSION['user_id'] ?>&id=<?php echo $value_3['coffee_id'] ?>"><button>Add</button></a>
+                <a href="add_coffee.php?user_id=<?php echo $_SESSION['user_id'] ?>&coffee_id=<?php echo $value_3['coffee_id'] ?>"><button>Add</button></a>
             </div>
         </div>
     </div>

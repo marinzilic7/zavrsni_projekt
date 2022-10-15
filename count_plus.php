@@ -89,6 +89,67 @@ $sql4 = "UPDATE cart SET price='$ress' WHERE food_id = '$food_id'";
 $query4 = mysqli_query($db,$sql4);
 
 
+//----------------------------------------------------------------// 
+
+
+
+$sql_3 = "SELECT price FROM nonalcoholic WHERE drink_id = '$food_id'"; 
+$query_3 = mysqli_query($db, $sql_3); 
+$result_3 = mysqli_fetch_all($query_3,MYSQLI_ASSOC); 
+
+foreach($result_3 as $key3){
+    $food = $key3['price'];
+}
+
+foreach($result as $key){
+    $ress = (float)$key['price'] + (float)$food;
+    
+}
+
+$sql4 = "UPDATE cart SET price='$ress' WHERE food_id = '$food_id'"; 
+$query4 = mysqli_query($db,$sql4);
+
+
+//---------------------------//
+
+
+
+$sql_3 = "SELECT price FROM beer WHERE beer_id = '$food_id'"; 
+$query_3 = mysqli_query($db, $sql_3); 
+$result_3 = mysqli_fetch_all($query_3,MYSQLI_ASSOC); 
+
+foreach($result_3 as $key3){
+    $food = $key3['price'];
+}
+
+foreach($result as $key){
+    $ress = (float)$key['price'] + (float)$food;
+    
+}
+
+$sql4 = "UPDATE cart SET price='$ress' WHERE food_id = '$food_id'"; 
+$query4 = mysqli_query($db,$sql4);
+
+//-------------------------------------//
+
+
+
+$sql_3 = "SELECT price FROM coffee WHERE coffee_id = '$food_id'"; 
+$query_3 = mysqli_query($db, $sql_3); 
+$result_3 = mysqli_fetch_all($query_3,MYSQLI_ASSOC); 
+
+foreach($result_3 as $key3){
+    $food = $key3['price'];
+}
+
+foreach($result as $key){
+    $ress = (float)$key['price'] + (float)$food;
+    
+}
+
+$sql4 = "UPDATE cart SET price='$ress' WHERE food_id = '$food_id'"; 
+$query4 = mysqli_query($db,$sql4);
+
 header('Location:cart_view.php?user_id='.$user_id);
 
 

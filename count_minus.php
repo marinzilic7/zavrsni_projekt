@@ -104,6 +104,70 @@ if($row > 0){
     $sql_6 = "UPDATE cart SET price='$res2' WHERE food_id = '$food_id'";
     $query_6 = mysqli_query($db,$sql_6);
 
+    // ----------------------------------------------------- //
+
+    
+    $sql_5 = "SELECT price FROM nonalcoholic WHERE drink_id = '$food_id'"; 
+    $query_5 = mysqli_query($db, $sql_5); 
+    $result_5 = mysqli_fetch_all($query_5, MYSQLI_ASSOC);
+
+    foreach($result_5 as $key5){
+        $food = $key5['price']; 
+    }
+
+    foreach($result_1 as $key){
+        $res2 = (float)$key['price'] - (float)$food;
+
+        $res2 = $res2;
+    
+    }
+
+    $sql_6 = "UPDATE cart SET price='$res2' WHERE food_id = '$food_id'";
+    $query_6 = mysqli_query($db,$sql_6);
+     
+
+    // ------------------------------------------------ // 
+
+    
+    $sql_5 = "SELECT price FROM beer WHERE beer_id = '$food_id'"; 
+    $query_5 = mysqli_query($db, $sql_5); 
+    $result_5 = mysqli_fetch_all($query_5, MYSQLI_ASSOC);
+
+    foreach($result_5 as $key5){
+        $food = $key5['price']; 
+    }
+
+    foreach($result_1 as $key){
+        $res2 = (float)$key['price'] - (float)$food;
+
+        $res2 = $res2;
+    
+    }
+
+    $sql_6 = "UPDATE cart SET price='$res2' WHERE food_id = '$food_id'";
+    $query_6 = mysqli_query($db,$sql_6);
+
+
+    // ---------------------------------------- // 
+
+    
+    $sql_5 = "SELECT price FROM coffee WHERE coffee_id = '$food_id'"; 
+    $query_5 = mysqli_query($db, $sql_5); 
+    $result_5 = mysqli_fetch_all($query_5, MYSQLI_ASSOC);
+
+    foreach($result_5 as $key5){
+        $food = $key5['price']; 
+    }
+
+    foreach($result_1 as $key){
+        $res2 = (float)$key['price'] - (float)$food;
+
+        $res2 = $res2;
+    
+    }
+
+    $sql_6 = "UPDATE cart SET price='$res2' WHERE food_id = '$food_id'";
+    $query_6 = mysqli_query($db,$sql_6);
 }
 
 
