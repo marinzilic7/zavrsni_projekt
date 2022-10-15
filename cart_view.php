@@ -107,3 +107,6 @@
 
 <?php endif; ?>
 
+
+<?php require './partials/footer_view.php' ?>
+
