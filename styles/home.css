@@ -1095,6 +1095,8 @@ body{
 
 .users_list{
     margin-top:50px;
+    
+    
 }
 
 
@@ -1155,4 +1157,14 @@ body{
     font-family: 'Open Sans';
     letter-spacing: 1px;
     font-weight: bold;
+}
+
+.div{
+    display:flex;
+    margin-top:10px;
+    
+}
+
+.div button{
+    margin-right:10px;
 }

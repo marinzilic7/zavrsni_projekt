@@ -45,7 +45,11 @@ $user_result = mysqli_fetch_all($query_user,MYSQLI_ASSOC);
                         <script src="anime.js"></script>
                     </div>
                 <?php else: ?>
-                    <a href="delete_user.php?user_id=<?php echo $user['user_id']?>"><button>DELETE</button></a>
+                    <div class="div">
+                        <button style="background-color:#DC143C;">User</button>
+                        <a href="delete_user.php?user_id=<?php echo $user['user_id']?>"><button>DELETE</button></a>
+                    </div>
+                    
                 <?php endif; ?>
             <?php endforeach; ?>
         </div>
