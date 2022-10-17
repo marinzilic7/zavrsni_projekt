@@ -76,7 +76,7 @@
 
 <div class="total_and_pay">
     <div class="button_pay">
-        <a href=""><button>CHECK</button></a>
+        <a href="checkout.php"><button>CHECKOUT</button></a>
         <p>Total : 
 
         <?php 
