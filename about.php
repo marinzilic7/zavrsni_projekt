@@ -2,7 +2,9 @@
 
 
 <div class="headingg">
-    <h1>About us</h1>
+    <h1 id="ofc_ab">About us</h1>
+    
+    <script src="./app/about.js"></script>
 </div>
 <div class="about">
     <div class="about_food_hub">

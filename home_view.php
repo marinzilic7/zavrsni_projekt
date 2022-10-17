@@ -1,12 +1,12 @@
 <?php require './partials/head_view.php' ;?>
 
             <div class="heading">
-                <h1>Your Favourite Food <br> Delivered Hot & <br> Fresh</h1>
+                <h1 id ="plut">Your Favourite Food <br> Delivered Hot & <br> Fresh</h1>
                 <p>Healthy switcher chefs do all the prep work, like peeding. <br> chopping & marinating, so you can cook a fresh food.</p>
                 <div class="button_heading">
                     <button><a href="">Order now</a></button>
                 </div>
-                
+                <script src="./app/anime.js"></script>
             </div>
         </div>
 

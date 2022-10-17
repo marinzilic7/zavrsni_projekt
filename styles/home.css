@@ -62,6 +62,17 @@ body{
     margin-top:20px;
     font-size:40px;
     letter-spacing: 1px;
+    
+}
+
+@keyframes head_anime {
+    
+    from{
+        transform: translateX(-900px);
+    }
+    to{
+        transform: translateX(0px);
+    }
 }
 
 .heading p{
@@ -380,6 +391,17 @@ body{
     font-style: italic;
     letter-spacing: 5px;
     height: 350px;
+    
+}
+
+@keyframes food_anime {
+    from{
+        transform:translateX(-900px); 
+    }    
+
+    to{
+        transform:translateX(0px);
+    }
 }
 
 .headingg h1{

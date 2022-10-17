@@ -2,8 +2,10 @@
 <?php require 'food.php' ?>
 
 <div class="headingg">
-    <h1>Choose Your Food</h1>
+    <h1 id="plat">Choose Your Food</h1>
+    <script src="./app/food.js"></script>
 </div>
+
 
 
 

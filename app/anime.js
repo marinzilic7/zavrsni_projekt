@@ -5,6 +5,13 @@ function dodajusera(){
     panel.style.display = 'block';
 }
 
+function anime(){
+    let head = document.getElementById('plut'); 
+    head.style.animation = 'head_anime 1s ease-in-out';
+}
+
+anime();
+
 
 
 

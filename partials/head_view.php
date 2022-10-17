@@ -69,5 +69,5 @@
 
 <?php endif; ?>
 
-<script src="./app/anime.js"></script>
+
 
