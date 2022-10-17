@@ -40,7 +40,7 @@
                         <li><a href="home_view.php">Home</a></li>
                         <li><a href="food_view.php">Food</a></li>
                         <li><a href="drinks_view.php">Drinks</a></li>
-                        <li><a href="">Contact</a></li>
+                        <li><a href="about.php">About us</a></li>
                     </ul>
                 </div>
                 <div class="user">

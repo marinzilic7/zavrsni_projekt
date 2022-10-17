@@ -38,3 +38,5 @@
     }
 
 </script>
+
+<?php require './partials/footer_view.php' ?>

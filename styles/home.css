@@ -935,3 +935,63 @@ body{
     font-weight: bold;
     letter-spacing: 2px;
 }
+
+.about{
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.about_food_hub{
+    display: flex;
+    align-items: center;
+    
+}
+
+.about_img img{
+    margin-top:20px;
+}
+
+.about-text{
+    margin-left:30px;
+    width:1000px;
+    line-height: 40px;
+    font-weight: bold;
+    font-style: italic;
+    
+    
+}
+
+
+
+.about_kitchen_hub{
+    display: flex;
+    align-items: center;
+    margin-top:50px;
+}
+
+.kitchen_img img{
+    margin-top:20px;
+}
+
+.reser{
+    display: flex;
+    align-items: center;
+    margin-top:50px;
+}
+
+.reser_img img{
+    margin-top:20px;
+}
+
+.quality{
+    display: flex;
+    align-items: center;
+    margin-top:50px;
+}
+
+.quality_img img{
+    margin-top:20px;
+}
+
