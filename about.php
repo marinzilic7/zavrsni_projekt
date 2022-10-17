@@ -9,8 +9,8 @@
 <div class="about">
     <div class="about_food_hub">
         <div class="about_img">
-            <h2>About FoodHub</h2>
-            <img src="./styles/images/food_hub.jpeg" alt="" width="460px" height="307px">
+            <h2 id="milan" >About FoodHub</h2>
+            <img id="milan" src="./styles/images/food_hub.jpeg" alt="" width="460px" height="307px">
         </div>
 
         <div class="about-text">

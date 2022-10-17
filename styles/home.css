@@ -969,8 +969,20 @@ body{
     display: flex;
     align-items: center;
     
+    
+
+    
 }
 
+@keyframes fooder {
+    from{
+        transform:translateX(-900px); 
+    }    
+
+    to{
+        transform:translateX(0px);
+    }
+}
 .about_img img{
     margin-top:20px;
 }
