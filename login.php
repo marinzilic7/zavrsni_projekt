@@ -13,7 +13,10 @@ $query = mysqli_query($db,$sql);
 $id = mysqli_fetch_assoc($query)['user_id'];
 
 
-if($id){
+if($id == 1){
+    $_SESSION['user_id'] = $id; 
+    header('Location:home_view.php');
+}else if($id){
     $_SESSION['user_id'] = $id; 
     header('Location:home_view.php');
 }else{

@@ -995,3 +995,89 @@ body{
     margin-top:20px;
 }
 
+/* ADMINISTRATOR */ 
+
+#add_or_del_food{
+    float:right;
+    margin-right: 100px;
+    margin-top:60px;
+    padding:15px;
+    font-family: 'Open Sans';
+    cursor: pointer;
+    border:none;
+    border-radius: 3px;
+    background-color: #feba0c;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.addFood{
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #DC143C;
+    padding:40px;
+    width:30%;
+    margin:auto;
+    border-radius: 20px;
+    color:#fff;
+    transition:1s ease-in-out;
+}
+
+.addInfo{
+    width:100%;
+}
+
+.addInfo p{
+    margin-top:20px;
+}
+
+.addInfo input{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid#DC143C;
+    padding:5px;
+    font-family: 'Open Sans';
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.addInfo button{
+    margin-top:30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    padding:15px;
+    font-family: 'Open Sans';
+    cursor: pointer;
+    border:none;
+    border-radius: 3px;
+    background-color: #feba0c;
+    color:#fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.addInfo a{
+    text-decoration: none;
+}
+
+#admin_del{
+    background-color: #feba0c;
+    color:#fff; 
+
+}
+
+.adoni a{
+    text-decoration: none;
+    color:#fff;
+}
