@@ -11,6 +11,16 @@ Tehnologije:
       - JavaScript
       
 Funkcionalnosti: 
+
+        APLIKACIJA : 
+        
+              - Onemogućen pristup stranici ukoliko korisnik nije registriran ili prijavljen. 
+              - Animacije za glavne naslove. 
+              - Iznad ikone košarice pokazuje se broj narudzbi koje je korisnik unio. 
+              - Animacija na home page za recenzije korisnika.
+              - Racunanje total cijene za sve narudzbe korisnika u košarici. 
+              - "Your cart is empty" piše sve dok korisnik ne unese narudzbu. 
+              
         
         OBICAN KORISNIK
 
