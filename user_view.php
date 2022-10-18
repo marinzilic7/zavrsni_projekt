@@ -42,7 +42,7 @@ $user_result = mysqli_fetch_all($query_user,MYSQLI_ASSOC);
                                     <button>Confirm</button>
                                 </form>
                         </div>
-                        <script src="anime.js"></script>
+                        <script src="./app/anime.js"></script>
                     </div>
                 <?php else: ?>
                     <div class="div">

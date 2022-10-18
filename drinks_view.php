@@ -23,13 +23,13 @@
         <div class="addInfo">
             <form action="admin_add_drink.php" method="POST">
                 <p>Write drink which do you want add</p>
-                <input type="text" name='drink' placeholder='nonalcoholic / beer / coffee' required>
+                <input type="text" name='drink' placeholder='nonalcoholic / beer / coffee' required autocomplete="off">
                 <p>Name:</p>
-                <input type="text" name='name' placeholder="name" requried>
+                <input type="text" name='name' placeholder="name" requried autocomplete="off">
                 <p>Price:</p>
-                <input type="text" name='price' placeholder="price"required>
+                <input type="text" name='price' placeholder="price"required autocomplete="off">
                 <p>Image:</p>
-                <input type="text" name='image' placeholder="/image.format" required>
+                <input type="text" name='image' placeholder="/image.format" required autocomplete="off">
                 <a href="admin_add_drink.php?user_id=<?php echo $_SESSION['user_id'] ?>"><button>ADD</button></a>
             </form>
         </div>
@@ -147,7 +147,7 @@
                 <p><?php echo $value_2['price'] ?>$</p>
             </div>
             <div class="adonii">
-                <a href="add_beer.php?user_id=<?php echo $_SESSION['user_id'] ?>&beer_id=<?php echo $value_2['beer_id'] ?>"><button>Add</button></a>
+                <a href="./adds/add_beer.php?user_id=<?php echo $_SESSION['user_id'] ?>&beer_id=<?php echo $value_2['beer_id'] ?>"><button>Add</button></a>
             </div>
         </div>
     </div>
