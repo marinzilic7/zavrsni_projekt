@@ -22,7 +22,7 @@
     <div class="addFood">
         <div class="addInfo">
             <form action="admin_add.php" method="POST">
-                <p>Write food which do you want add</p>
+                <p>What food do you want add?</p>
                 <input type="text" name='food' placeholder='soup / burgers / pizza / Main Coruse ' required autocomplete="off">
                 <p>Name:</p>
                 <input type="text" name='name' placeholder="name" requried autocomplete="off">
